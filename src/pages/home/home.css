@@ -1,6 +1,10 @@
+.main-home {
+  overflow: auto;
+  height: 100%;
+}
 .home {
   height: 100%;
-  background-image: url(./sunset.jpg);
+  background-image: url(./aii.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;
@@ -11,5 +15,27 @@
   justify-content: center;
   padding-top: 30vh;
   font-size: 40px;
-  color: rgb(34, 23, 23);
+  color: rgb(29, 37, 31);
+}
+.home h1 i {
+  color: rgba(39, 139, 233, 0.836);
+}
+.home .btn {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+.btn .watch {
+  background-color: rgba(39, 139, 233, 0.836);
+  padding: 10px;
+  box-shadow: 5px 5px 5px rgba(38, 52, 65, 0.507);
+}
+.btn .sub {
+  border: 1px solid white;
+  padding: 10px;
+}
+.sec-home {
+  height: 20vh;
 }

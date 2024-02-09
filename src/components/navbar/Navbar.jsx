@@ -8,20 +8,50 @@ function Navbar() {
       </div>
       <ul>
         <li>
-          <NavLink to="/" className="active">
+          <NavLink
+            to="/"
+            className={({ isActive, isPending }) =>
+              isPending ? "pending" : isActive ? "active-bar" : ""
+            }
+          >
             Home
           </NavLink>
         </li>
         <li>
-          <NavLink to="/News">News</NavLink>
+          <NavLink
+            to="/News"
+            className={({ isActive, isPending }) =>
+              isPending ? "pending" : isActive ? "active-bar" : ""
+            }
+          >
+            News
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/contact">Contact</NavLink>
+          <NavLink
+            to="/contact"
+            className={({ isActive, isPending }) =>
+              isPending ? "pending" : isActive ? "active-bar" : ""
+            }
+          >
+            Contact
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/about">About</NavLink>
+          <NavLink
+            to="/about"
+            className={({ isActive, isPending }) =>
+              isPending ? "pending" : isActive ? "active-bar" : ""
+            }
+          >
+            About
+          </NavLink>
         </li>
       </ul>
+      <div className="log-in">
+        <div className="log">Log In</div>
+        <div className="free">Try For Free</div>
+      </div>
     </div>
   );
 }

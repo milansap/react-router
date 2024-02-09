@@ -1,0 +1,15 @@
+.f-content {
+  height: 100%;
+}
+.f-content h6 {
+  font-size: 18px;
+  text-align: center;
+  padding-left: 17vw;
+}
+.f-content h2 {
+  font-weight: 600;
+  text-align: center;
+}
+.f-content img {
+  margin-left: 20vw;
+}

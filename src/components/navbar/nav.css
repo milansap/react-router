@@ -4,8 +4,14 @@
   width: 100%;
   height: 60px;
   display: flex;
+  padding-right: 10px;
+  justify-content: space-between;
+}
+.active-bar {
+  color: rgb(43, 184, 8) !important;
 }
 .navbar .logo img {
+  padding: 2px;
   border-radius: 30px;
 }
 
@@ -26,4 +32,29 @@
 .navbar a:hover {
   background-color: #ddd;
   color: black;
+}
+.log-in {
+  padding: 0 5px 0 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #f2f2f2;
+  gap: 10px;
+}
+.log {
+  cursor: pointer;
+  padding: 14px 20px;
+}
+.log:hover {
+  background-color: #ddd;
+  color: black;
+}
+.free {
+  cursor: pointer;
+  padding: 14px 20px;
+  background-color: #9b9898;
+}
+.free:hover {
+  color: black;
+  background-color: rgb(39, 139, 233);
 }

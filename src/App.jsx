@@ -6,7 +6,9 @@ import News from "./pages/news/News";
 import Contact from "./pages/contact/Contact";
 import { Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
-import FirstContent from "./pages/about/components/FirstContent";
+import LogIn from "./components/navbar/LogIn";
+import TryForFree from "./components/navbar/TryForFree";
+import FirstContent from "./pages/news/components/FirstContent";
 function App() {
   // const token = false;
   // if (!token) {
@@ -29,6 +31,8 @@ function App() {
             <Route path="page8" element={<h1>hhahhas</h1>} />
           </Route>
           <Route path="contact" element={<Contact />} />
+          <Route path="login" element={<LogIn />} />
+          <Route path="free" element={<TryForFree />} />
         </Route>
         <Route path="*" element={<NotFound />} />
       </Routes>

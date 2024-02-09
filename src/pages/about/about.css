@@ -1,0 +1,18 @@
+.about {
+  display: flex;
+  height: 100%;
+}
+.desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.desc h2 {
+  /* padding: 20px; */
+  border-bottom: 1px solid;
+  text-decoration: underline;
+}
+.desc p {
+  padding: 10px;
+}
