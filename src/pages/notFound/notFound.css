@@ -1,0 +1,39 @@
+.error {
+  width: 50vw;
+  /* background-color: rgb(255, 177, 82); */
+  margin: auto;
+  text-align: center;
+  margin-top: 15vh;
+}
+.error .oops {
+  font-size: 110px;
+  font-weight: 800;
+  letter-spacing: 10px;
+  position: relative;
+  background: url(./R.jpg) 50% 50%;
+  background-size: cover;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.error h6 {
+  font-size: 30px;
+  /* padding: 5px;  */
+  background: url(./redd.jpg) 50% 50%;
+  background-size: cover;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.error p {
+  padding: 20px;
+}
+.go-to-home {
+  /* margin-left: 20vw; */
+  width: 10vw;
+  height: 3vh;
+  text-decoration: underline;
+  color: beige;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: rgb(52, 86, 240);
+}

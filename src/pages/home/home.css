@@ -1,0 +1,15 @@
+.home {
+  height: 100%;
+  background-image: url(./sunset.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  text-align: center;
+}
+.home h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 30vh;
+  font-size: 40px;
+  color: rgb(34, 23, 23);
+}
