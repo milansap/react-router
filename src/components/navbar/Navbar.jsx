@@ -49,8 +49,12 @@ function Navbar() {
         </li>
       </ul>
       <div className="log-in">
-        <div className="log">Log In</div>
-        <div className="free">Try For Free</div>
+        <NavLink to="/login" className="log">
+          Log In
+        </NavLink>
+        <NavLink to="/free" className="free">
+          Try For Free
+        </NavLink>
       </div>
     </div>
   );

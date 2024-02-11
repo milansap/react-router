@@ -1,0 +1,62 @@
+.contact {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(94, 90, 85);
+}
+.contact .icons {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: space-around;
+}
+.contact .icons .div1,
+.div2 {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+}
+.icons .address {
+}
+.icons .address,
+.phone,
+.email,
+.fax {
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+  height: 18vh;
+  width: 110px;
+  background-color: aliceblue;
+}
+
+.contact .form {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  font-family: monospace;
+  padding: 20px;
+  background-color: rgba(39, 139, 233, 0.836);
+}
+.contact .form h1 {
+  font-size: 30px;
+  color: rgb(22, 212, 124);
+  font-family: monospace;
+  text-align: center;
+  text-decoration: underline;
+  padding-bottom: 25px;
+}
+.contact .error-msg {
+  color: red;
+  display: block;
+  text-align: center;
+}
+.sub-btn {
+  /* margin-left: 40%; */
+  cursor: pointer;
+  height: 30px;
+  width: 7vw;
+
+  border-radius: 10px;
+}
