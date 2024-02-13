@@ -56,5 +56,5 @@
 }
 .free:hover {
   color: black;
-  background-color: rgb(39, 139, 233);
+  background-color: rgb(39, 139, 233) !important;
 }
